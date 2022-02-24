@@ -1,3 +1,5 @@
+import kotlin.concurrent.thread
+
 /**
  * @author Leon Matte
  *
@@ -47,4 +49,7 @@ class Calculator {
         return a * b
     }
 
+    fun timeOutMethodSimulation() {
+        Thread.sleep(1000)
+    }
 }
